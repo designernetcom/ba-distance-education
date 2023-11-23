@@ -7328,7 +7328,7 @@ form .btn {
   
   .form-check-input {
     position: absolute;
-    right: -100px;
+    right: -150px;
   }
   @media (max-width: 1350px) {
     .form-check-input {
@@ -7348,5 +7348,9 @@ form .btn {
     .f-row {
         width: 100%;
     }
+  }
+
+  .form-box {
+    margin-top: 70px;
   }
  
