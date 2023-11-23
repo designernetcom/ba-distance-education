@@ -7323,13 +7323,30 @@ form .btn {
   .form-check-inline {
     position: relative;
   }
+
+
+  
   .form-check-input {
     position: absolute;
-    right: -130px;
+    right: -100px;
+  }
+  @media (max-width: 1350px) {
+    .form-check-input {
+        position: absolute;
+        right: -100px;
+      }
   }
   .form-control {
     font-size: 15px !important;
   }
-  .form-box {
-    
+  @media (max-width: 991px) {
+  
+    .form-check-input {
+        position: absolute;
+        right: -45%;
+    }
+    .f-row {
+        width: 100%;
+    }
   }
+ 
